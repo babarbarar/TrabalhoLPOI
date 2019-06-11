@@ -8,7 +8,6 @@ public class Cliente{
     private String email;
     private String endereco;
     private LocalDate dataNascimento;
-    //private Calendar dataNascimento;
 
     public Cliente(Long id, String nome, String email, String endereco, LocalDate dataNascimento) {
         this.id = id;
